@@ -1,0 +1,1 @@
+Invoking command in '/mnt/ssd/lsgloc_ws/build/ncore': /usr/bin/cmake /mnt/ssd/lsgloc_ws/hsmcl/ncore -DCMAKE_INSTALL_PREFIX=/mnt/ssd/lsgloc_ws/install/ncore

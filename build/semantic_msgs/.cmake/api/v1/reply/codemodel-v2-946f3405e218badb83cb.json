@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c4a456ee75895105269c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "semantic_msgs__py",
+					"jsonFile" : "directory-semantic_msgs__py-d740afb552c6a85d2a5f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/mnt/ssd/lsgloc_ws/build/semantic_msgs/semantic_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "semantic_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_semantic_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_semantic_msgs_egg-5cb64f23fb0f27648fbd.json",
+					"name" : "ament_cmake_python_build_semantic_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_semantic_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_semantic_msgs-804c3dc6b0c26504812c.json",
+					"name" : "ament_cmake_python_copy_semantic_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs-612c5ac0371930d82afd.json",
+					"name" : "semantic_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__cpp-32ec68c80d54b8db40a4.json",
+					"name" : "semantic_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "semantic_msgs__py::@97dcee7b7fd3e1411eb8",
+					"jsonFile" : "target-semantic_msgs__py-c53665e09ad5736d186d.json",
+					"name" : "semantic_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_generator_c-5522d2f57acd3a4a655e.json",
+					"name" : "semantic_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_generator_py-c1ae6d5a16d938fef509.json",
+					"name" : "semantic_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_typesupport_c-03ad53cd2b668692e308.json",
+					"name" : "semantic_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_typesupport_c__pyext-e9dbe3b0bbd4201167ff.json",
+					"name" : "semantic_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_typesupport_cpp-64e40ea3e5784085d0a2.json",
+					"name" : "semantic_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_typesupport_fastrtps_c-5bd38c8af732aae431dd.json",
+					"name" : "semantic_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_typesupport_fastrtps_c__pyext-9c3eddda982bd5c1ef4d.json",
+					"name" : "semantic_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_typesupport_fastrtps_cpp-a390cce75a4c3097fe72.json",
+					"name" : "semantic_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_typesupport_introspection_c-130a594f0e3bad2acb0b.json",
+					"name" : "semantic_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_typesupport_introspection_c__pyext-a66cf91d43b9bc878572.json",
+					"name" : "semantic_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs__rosidl_typesupport_introspection_cpp-fc9e9274a381e382842f.json",
+					"name" : "semantic_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semantic_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semantic_msgs_uninstall-bf194999800532d2b647.json",
+					"name" : "semantic_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-12b442a95d4ac2b17593.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/ssd/lsgloc_ws/build/semantic_msgs",
+		"source" : "/mnt/ssd/lsgloc_ws/src/semantic_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

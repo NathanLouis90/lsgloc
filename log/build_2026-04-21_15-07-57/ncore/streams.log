@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/mnt/ssd/lsgloc_ws/build/ncore': /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/ncore -- -j16 -l16
+[0.277s] [  4%] Built target NDL
+[0.277s] [ 12%] Built target TextRecoFromFolder
+[0.277s] [ 29%] Built target TextRecoFromFolder2
+[0.277s] [ 31%] Built target NSENSORS
+[0.277s] [ 34%] [32mBuilding CXX object nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o[0m
+[0.277s] [ 48%] Built target NMAP
+[0.278s] [ 78%] Built target NMCL
+[0.278s] [35m[1mConsolidate compiler generated dependencies of target RoomSegmentation[0m
+[0.278s] [ 95%] Built target RoomSegmentation
+[0.278s] In file included from [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/DataFrameLoader.cpp:12[m[K:
+[0.278s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/include/DataFrameLoader.h:17:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+[0.278s]    17 | #include [01;31m[K"Python.h"[m[K
+[0.278s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.278s] compilation terminated.
+[0.278s] gmake[2]: *** [nengine/src/CMakeFiles/NEGNINE.dir/build.make:90: nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o] Error 1
+[0.278s] gmake[1]: *** [CMakeFiles/Makefile2:433: nengine/src/CMakeFiles/NEGNINE.dir/all] Error 2
+[0.278s] gmake[1]: *** Waiting for unfinished jobs....
+[0.278s] gmake: *** [Makefile:91: all] Error 2
+[0.286s] Invoked command in '/mnt/ssd/lsgloc_ws/build/ncore' returned '2': /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/ncore -- -j16 -l16

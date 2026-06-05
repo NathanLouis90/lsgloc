@@ -1,0 +1,39 @@
+[  2%] [32mBuilding CXX object ndl/src/CMakeFiles/TextRecoFromFolder.dir/TextSpotting.cpp.o[0m
+[  4%] [32mBuilding CXX object ndl/src/CMakeFiles/TextRecoFromFolder.dir/TextRecoFromFolder.cpp.o[0m
+[  7%] [32mBuilding CXX object nmap/src/CMakeFiles/NMAP.dir/FloorMap.cpp.o[0m
+[  9%] [32mBuilding CXX object nmap/src/CMakeFiles/NMAP.dir/GMap.cpp.o[0m
+[ 12%] [32mBuilding CXX object ndl/src/CMakeFiles/NDL.dir/TextSpotting.cpp.o[0m
+[ 14%] [32mBuilding CXX object nengine/src/CMakeFiles/NEGNINE.dir/NMCLEngine.cpp.o[0m
+[ 17%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/BeamEnd.cpp.o[0m
+[ 19%] [32mBuilding CXX object nsensors/src/CMakeFiles/NSENSORS.dir/Camera.cpp.o[0m
+[ 21%] [32mBuilding CXX object nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o[0m
+[ 24%] [32mBuilding CXX object ndl/src/CMakeFiles/TextRecoFromFolder2.dir/TextRecoFromFolder2.cpp.o[0m
+[ 26%] [32mBuilding CXX object nsensors/src/CMakeFiles/NSENSORS.dir/Utils.cpp.o[0m
+[ 29%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/MixedFSR.cpp.o[0m
+[ 31%] [32mBuilding CXX object ndl/src/CMakeFiles/TextRecoFromFolder2.dir/TextSpotting.cpp.o[0m
+[ 34%] [32mBuilding CXX object nmap/src/CMakeFiles/NMAP.dir/Room.cpp.o[0m
+[ 36%] [32mBuilding CXX object nmap/src/CMakeFiles/NMAP.dir/Lift.cpp.o[0m
+[ 39%] [32mBuilding CXX object nmap/src/CMakeFiles/NMAP.dir/Object.cpp.o[0m
+[ 41%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/Particle.cpp.o[0m
+[ 43%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/SetStatistics.cpp.o[0m
+[ 46%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/Resampling.cpp.o[0m
+[ 48%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/PlaceRecognition.cpp.o[0m
+[ 51%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/ReNMCL.cpp.o[0m
+[ 53%] [32mBuilding CXX object nsensors/src/CMakeFiles/NSENSORS.dir/OptiTrack.cpp.o[0m
+[ 56%] [32mBuilding CXX object nsensors/src/CMakeFiles/NSENSORS.dir/Lidar2D.cpp.o[0m
+[ 58%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/NMCLFactory.cpp.o[0m
+[ 60%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/SemanticLikelihood.cpp.o[0m
+[ 63%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/SemanticVisibility.cpp.o[0m
+[ 65%] [32mBuilding CXX object nmcl/src/CMakeFiles/NMCL.dir/ParticleFilter.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable /mnt/ssd/lsgloc_ws/hsmcl/ncore/build/bin/TextRecoFromFolder2[0m
+[ 70%] [32m[1mLinking CXX static library /mnt/ssd/lsgloc_ws/hsmcl/ncore/build/lib/libNDL.a[0m
+[ 73%] [32m[1mLinking CXX executable /mnt/ssd/lsgloc_ws/hsmcl/ncore/build/bin/TextRecoFromFolder[0m
+[ 73%] Built target NDL
+[ 75%] [32m[1mLinking CXX static library /mnt/ssd/lsgloc_ws/hsmcl/ncore/build/lib/libNSENSORS.a[0m
+[ 75%] Built target NSENSORS
+[ 75%] Built target TextRecoFromFolder2
+[ 75%] Built target TextRecoFromFolder
+[ 78%] [32m[1mLinking CXX static library /mnt/ssd/lsgloc_ws/hsmcl/ncore/build/lib/libNMAP.a[0m
+[ 78%] Built target NMAP
+[ 80%] [32m[1mLinking CXX static library /mnt/ssd/lsgloc_ws/hsmcl/ncore/build/lib/libNMCL.a[0m
+[ 80%] Built target NMCL

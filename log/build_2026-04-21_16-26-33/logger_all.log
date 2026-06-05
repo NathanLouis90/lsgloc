@@ -1,0 +1,354 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4967db1330>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4967db0d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4967db0d90>>)
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.208s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/ssd/lsgloc_ws'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/Docs) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extension 'cmake'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ncore) by extension 'python'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'hsmcl/ncore' with type 'cmake' and name 'ncore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_msgs) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_msgs) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_msgs) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_msgs) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_msgs) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_msgs) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_msgs) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_msgs) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'hsmcl/ros1_ws/src/nmcl_msgs' with type 'ros.catkin' and name 'nmcl_msgs'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_ros) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_ros) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_ros) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_ros) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_ros) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_ros) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_ros) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/nmcl_ros) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'hsmcl/ros1_ws/src/nmcl_ros' with type 'ros.catkin' and name 'nmcl_ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/yolov5_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/yolov5_ros) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/yolov5_ros) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/yolov5_ros) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/yolov5_ros) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/yolov5_ros) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/yolov5_ros) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/yolov5_ros) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(hsmcl/ros1_ws/src/yolov5_ros) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'hsmcl/ros1_ws/src/yolov5_ros' with type 'ros.catkin' and name 'yolov5_ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/bcr_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/bcr_bot) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/bcr_bot) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/bcr_bot) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/bcr_bot) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/bcr_bot) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/bcr_bot) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/bcr_bot) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/bcr_bot) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bcr_bot' with type 'ros.ament_cmake' and name 'bcr_bot'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detection) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detection) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detection) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detection) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detection) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detection) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detection) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/obj_detection) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obj_detection' with type 'ros.ament_python' and name 'obj_detection'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_mcl) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_mcl) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_mcl) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_mcl) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_mcl) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_mcl) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_mcl) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_mcl) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_mcl) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_mcl' with type 'ros.ament_cmake' and name 'semantic_mcl'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_msgs) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_msgs) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_msgs) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_msgs) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_msgs) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_msgs) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_msgs) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/semantic_msgs) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/semantic_msgs' with type 'ros.ament_cmake' and name 'semantic_msgs'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_semantic_mcl) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_semantic_mcl) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_semantic_mcl) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_semantic_mcl) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_semantic_mcl) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_semantic_mcl) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_semantic_mcl) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_semantic_mcl) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_semantic_mcl) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_semantic_mcl' with type 'ros.ament_python' and name 'test_semantic_mcl'
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.224s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /mnt/ssd/lsgloc_ws/install
+[0.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 450 installed packages in /opt/ros/humble
+[0.238s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'bcr_bot' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'bcr_bot' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'bcr_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'bcr_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'bcr_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'bcr_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'bcr_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'bcr_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'bcr_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'bcr_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/ssd/lsgloc_ws/build/bcr_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/ssd/lsgloc_ws/install/bcr_bot', 'merge_install': False, 'path': '/mnt/ssd/lsgloc_ws/src/bcr_bot', 'symlink_install': False, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'ncore' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'ncore' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'ncore' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'ncore' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'ncore' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'ncore' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'ncore' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'ncore' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'ncore' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'ncore' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/ssd/lsgloc_ws/build/ncore', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/ssd/lsgloc_ws/install/ncore', 'merge_install': False, 'path': '/mnt/ssd/lsgloc_ws/hsmcl/ncore', 'symlink_install': False, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'nmcl_msgs' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'nmcl_msgs' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'nmcl_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'nmcl_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'nmcl_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'nmcl_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'nmcl_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'nmcl_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'nmcl_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'nmcl_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/ssd/lsgloc_ws/build/nmcl_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/ssd/lsgloc_ws/install/nmcl_msgs', 'merge_install': False, 'path': '/mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/nmcl_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'semantic_msgs' build argument 'cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'semantic_msgs' build argument 'cmake_target' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'semantic_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'semantic_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'semantic_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'semantic_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'semantic_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'semantic_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.266s] Level 5:colcon.colcon_core.verb:set package 'semantic_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.266s] DEBUG:colcon.colcon_core.verb:Building package 'semantic_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/ssd/lsgloc_ws/build/semantic_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/ssd/lsgloc_ws/install/semantic_msgs', 'merge_install': False, 'path': '/mnt/ssd/lsgloc_ws/src/semantic_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'test_semantic_mcl' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'test_semantic_mcl' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'test_semantic_mcl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'test_semantic_mcl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'test_semantic_mcl' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'test_semantic_mcl' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'test_semantic_mcl' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'test_semantic_mcl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'test_semantic_mcl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'test_semantic_mcl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/ssd/lsgloc_ws/build/test_semantic_mcl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/ssd/lsgloc_ws/install/test_semantic_mcl', 'merge_install': False, 'path': '/mnt/ssd/lsgloc_ws/src/test_semantic_mcl', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'yolov5_ros' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'yolov5_ros' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'yolov5_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'yolov5_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'yolov5_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'yolov5_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'yolov5_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'yolov5_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'yolov5_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'yolov5_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/ssd/lsgloc_ws/build/yolov5_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/ssd/lsgloc_ws/install/yolov5_ros', 'merge_install': False, 'path': '/mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/yolov5_ros', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'nmcl_ros' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'nmcl_ros' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'nmcl_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'nmcl_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'nmcl_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'nmcl_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'nmcl_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'nmcl_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'nmcl_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'nmcl_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/ssd/lsgloc_ws/build/nmcl_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/ssd/lsgloc_ws/install/nmcl_ros', 'merge_install': False, 'path': '/mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/nmcl_ros', 'symlink_install': False, 'test_result_base': None}
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_target' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'obj_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.267s] DEBUG:colcon.colcon_core.verb:Building package 'obj_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/ssd/lsgloc_ws/build/obj_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/ssd/lsgloc_ws/install/obj_detection', 'merge_install': False, 'path': '/mnt/ssd/lsgloc_ws/src/obj_detection', 'symlink_install': False, 'test_result_base': None}
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'semantic_mcl' build argument 'cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'semantic_mcl' build argument 'cmake_target' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'semantic_mcl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'semantic_mcl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'semantic_mcl' build argument 'cmake_clean_first' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'semantic_mcl' build argument 'cmake_force_configure' from command line to 'False'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'semantic_mcl' build argument 'ament_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'semantic_mcl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.268s] Level 5:colcon.colcon_core.verb:set package 'semantic_mcl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.268s] DEBUG:colcon.colcon_core.verb:Building package 'semantic_mcl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/ssd/lsgloc_ws/build/semantic_mcl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/ssd/lsgloc_ws/install/semantic_mcl', 'merge_install': False, 'path': '/mnt/ssd/lsgloc_ws/src/semantic_mcl', 'symlink_install': False, 'test_result_base': None}
+[0.268s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/ssd/lsgloc_ws/src/semantic_msgs' with build type 'ament_cmake'
+[0.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/ssd/lsgloc_ws/src/semantic_msgs'
+[0.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/nmcl_msgs' with build type 'catkin'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/nmcl_msgs'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/ssd/lsgloc_ws/src/bcr_bot' with build type 'ament_cmake'
+[0.274s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/ssd/lsgloc_ws/src/bcr_bot'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.277s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/ssd/lsgloc_ws/hsmcl/ncore'
+[0.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/ssd/lsgloc_ws/src/test_semantic_mcl' with build type 'ament_python'
+[0.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_semantic_mcl', 'ament_prefix_path')
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/hook/ament_prefix_path.ps1'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/hook/ament_prefix_path.dsv'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/hook/ament_prefix_path.sh'
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/yolov5_ros' with build type 'catkin'
+[0.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/yolov5_ros'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_msgs -- -j16 -l16
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/ssd/lsgloc_ws/build/nmcl_msgs': /usr/bin/cmake /mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/nmcl_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/ssd/lsgloc_ws/install/nmcl_msgs
+[0.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/ssd/lsgloc_ws/build/bcr_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/bcr_bot -- -j16 -l16
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/ssd/lsgloc_ws/build/ncore': /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/ncore -- -j16 -l16
+[0.519s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/ssd/lsgloc_ws/src/test_semantic_mcl'
+[0.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/ssd/lsgloc_ws/build/bcr_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/bcr_bot -- -j16 -l16
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/ssd/lsgloc_ws/build/bcr_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --install /mnt/ssd/lsgloc_ws/build/bcr_bot
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/ssd/lsgloc_ws/build/yolov5_ros': /usr/bin/cmake /mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/yolov5_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/ssd/lsgloc_ws/install/yolov5_ros
+[0.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/ssd/lsgloc_ws/build/ncore' returned '2': /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/ncore -- -j16 -l16
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/ssd/lsgloc_ws/build/nmcl_msgs' returned '1': /usr/bin/cmake /mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/nmcl_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/ssd/lsgloc_ws/install/nmcl_msgs
+[0.625s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.626s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.626s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[0.626s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.629s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.635s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.635s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/ssd/lsgloc_ws/install/local_setup.ps1'
+[0.636s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/ssd/lsgloc_ws/install/_local_setup_util_ps1.py'
+[0.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/ssd/lsgloc_ws/install/setup.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/ssd/lsgloc_ws/install/local_setup.sh'
+[0.637s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/ssd/lsgloc_ws/install/_local_setup_util_sh.py'
+[0.638s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/ssd/lsgloc_ws/install/setup.sh'
+[0.638s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/ssd/lsgloc_ws/install/local_setup.bash'
+[0.638s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/ssd/lsgloc_ws/install/setup.bash'
+[0.639s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/ssd/lsgloc_ws/install/local_setup.zsh'
+[0.639s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/ssd/lsgloc_ws/install/setup.zsh'

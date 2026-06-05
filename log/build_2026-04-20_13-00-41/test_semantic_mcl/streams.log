@@ -1,0 +1,22 @@
+[0.629s] Invoking command in '/mnt/ssd/lsgloc_ws/src/test_semantic_mcl': PYTHONPATH=/mnt/ssd/lsgloc_ws/build/test_semantic_mcl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_semantic_mcl build --build-base /mnt/ssd/lsgloc_ws/build/test_semantic_mcl/build install --record /mnt/ssd/lsgloc_ws/build/test_semantic_mcl/install.log --single-version-externally-managed install_data
+[0.852s] running egg_info
+[0.860s] writing ../../build/test_semantic_mcl/test_semantic_mcl.egg-info/PKG-INFO
+[0.861s] writing dependency_links to ../../build/test_semantic_mcl/test_semantic_mcl.egg-info/dependency_links.txt
+[0.861s] writing entry points to ../../build/test_semantic_mcl/test_semantic_mcl.egg-info/entry_points.txt
+[0.861s] writing requirements to ../../build/test_semantic_mcl/test_semantic_mcl.egg-info/requires.txt
+[0.861s] writing top-level names to ../../build/test_semantic_mcl/test_semantic_mcl.egg-info/top_level.txt
+[0.878s] reading manifest file '../../build/test_semantic_mcl/test_semantic_mcl.egg-info/SOURCES.txt'
+[0.878s] writing manifest file '../../build/test_semantic_mcl/test_semantic_mcl.egg-info/SOURCES.txt'
+[0.878s] running build
+[0.878s] running build_py
+[0.878s] running install
+[0.881s] running install_lib
+[0.890s] running install_data
+[0.890s] copying launch/test_semantic_mcl.launch.py -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/launch
+[0.890s] running install_egg_info
+[0.899s] removing '/mnt/ssd/lsgloc_ws/install/test_semantic_mcl/lib/python3.10/site-packages/test_semantic_mcl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.899s] Copying ../../build/test_semantic_mcl/test_semantic_mcl.egg-info to /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/lib/python3.10/site-packages/test_semantic_mcl-0.0.0-py3.10.egg-info
+[0.900s] running install_scripts
+[0.933s] Installing landmark_visualizer script to /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/lib/test_semantic_mcl
+[0.933s] writing list of installed files to '/mnt/ssd/lsgloc_ws/build/test_semantic_mcl/install.log'
+[0.950s] Invoked command in '/mnt/ssd/lsgloc_ws/src/test_semantic_mcl' returned '0': PYTHONPATH=/mnt/ssd/lsgloc_ws/build/test_semantic_mcl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_semantic_mcl build --build-base /mnt/ssd/lsgloc_ws/build/test_semantic_mcl/build install --record /mnt/ssd/lsgloc_ws/build/test_semantic_mcl/install.log --single-version-externally-managed install_data

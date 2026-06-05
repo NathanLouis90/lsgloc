@@ -1,0 +1,181 @@
+In file included from [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/DataFrameLoader.cpp:12[m[K:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/include/DataFrameLoader.h:17:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+   17 | #include [01;31m[K"Python.h"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [nengine/src/CMakeFiles/NEGNINE.dir/build.make:90: nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/ndl/src/TextRecoFromFolder.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/ndl/src/TextRecoFromFolder.cpp:43:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   43 |                 for (int f = 0; [01;35m[Kf < filenames.size()[m[K; ++f)
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/ndl/src/TextRecoFromFolder.cpp:51:51:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   51 |                                 for (int i = 0; [01;35m[Ki < recRes.size()[m[K; ++i)
+      |                                                 [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/ndl/src/TextRecoFromFolder2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/ndl/src/TextRecoFromFolder2.cpp:42:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   42 |         for (int f = 0; [01;35m[Kf < filenames.size()[m[K; ++f)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/ndl/src/TextRecoFromFolder2.cpp:50:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   50 |                         for (int i = 0; [01;35m[Ki < recRes.size()[m[K; ++i)
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/BeamEnd.cpp:[m[K In member function ‘[01m[Kdouble BeamEnd::giorgio(Eigen::Vector3f, const std::vector<Eigen::Matrix<float, 3, 1> >&, std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/BeamEnd.cpp:97:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbr[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   97 |         Eigen::Vector2f [01;35m[Kbr[m[K = Gmap->BottomRight();
+      |                         [01;35m[K^~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:[m[K In member function ‘[01m[Kint NMCLEngine::Correct(const std::vector<Eigen::Matrix<float, 3, 1> >&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:86:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KscanRatio[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   86 |                 double [01;35m[KscanRatio[m[K = sum / o_scanMask.size();
+      |                        [01;35m[K^~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:[m[K In member function ‘[01m[Kvoid NMCLEngine::UpdateConsistency(const Particle&, const std::vector<std::vector<Eigen::Matrix<float, 6, 1> > >&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:136:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<float, 6, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  136 |         for(int camID = 0; [01;35m[KcamID < combinedScan.size()[m[K; ++camID)
+      |                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:140:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<float, 6, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  140 |                 for(int i = 0; [01;35m[Ki < semScan.size()[m[K; ++i)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:[m[K In member function ‘[01m[Kint NMCLEngine::CorrectSemantic(const std::vector<std::vector<Eigen::Matrix<float, 6, 1> > >&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:181:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<float, 6, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  181 |         for(int camID = 0; [01;35m[KcamID < combinedScan.size()[m[K; ++camID)
+      |                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:186:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Eigen::Matrix<float, 6, 1> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  186 |                 for(int i = 0; [01;35m[Ki < semScan.size()[m[K; ++i)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:[m[K In member function ‘[01m[Kvoid NMCLEngine::updateScanMask(const std::vector<Eigen::Matrix<float, 3, 1> >&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:251:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::pair<Eigen::Matrix<float, 2, 1>, Eigen::Matrix<float, 2, 1> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  251 |                 for(int d = 0; [01;35m[Kd < o_occludedFlat.size()[m[K; ++d)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:[m[K In member function ‘[01m[Kvoid NMCLEngine::TextMask(const std::vector<std::__cxx11::basic_string<char> >&, int)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/NMCLEngine.cpp:295:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  295 |                 for(int i = 0; [01;35m[Ki < matches.size()[m[K; ++i)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kcv::Mat FloorMap::augmentGMap(const cv::Mat&, const std::vector<int>&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:138:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_lowThreshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  138 |     const int [01;35m[Kmax_lowThreshold[m[K = 100;
+      |               [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kvoid FloorMap::CreateSemMaps()[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:195:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  195 |     for(int c = 0; [01;35m[Kc < o_classes.size()[m[K; ++c)
+      |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:200:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Room>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  200 |     for (int r = 0; [01;35m[Kr <  o_rooms.size()[m[K; ++r)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:204:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Object>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  204 |         for (int o = 0; [01;35m[Ko <  objs.size()[m[K; ++o)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:213:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  213 |     for(int c = 0; [01;35m[Kc < o_classes.size()[m[K; ++c)
+      |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:191:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  191 |     int [01;35m[Kh[m[K = o_roomSeg.rows;
+      |         [01;35m[K^[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:192:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  192 |     int [01;35m[Kw[m[K = o_roomSeg.cols;
+      |         [01;35m[K^[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kvoid FloorMap::findNeighbours()[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:304:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcolor[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  304 |         cv::Scalar [01;35m[Kcolor[m[K = cv::Scalar( rng.uniform(0, 256), rng.uniform(0,256), rng.uniform(0,256) );
+      |                    [01;35m[K^~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > FloorMap::GetRoomNames()[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:386:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Room>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  386 |     for(int i = 0; [01;35m[Ki < o_rooms.size()[m[K; ++i)
+      |                    [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:[m[K In member function ‘[01m[KTextData PlaceRecognition::TextBoundingBoxes(std::vector<int>, std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:81:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   81 |         for(int i = 0; [01;35m[Ki < matches.size()[m[K; ++i)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:74:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnumMatches[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   74 |         int [01;35m[KnumMatches[m[K = matches.size();
+      |             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:[m[K In member function ‘[01m[Kstd::vector<int> PlaceRecognition::Match(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:108:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  108 |         for (int p = 0; [01;35m[Kp < places.size()[m[K; ++p)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:110:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  110 |                 for(int d = 0; [01;35m[Kd < o_dict.size()[m[K; ++d)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:126:51:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  126 |                                 for (int w = 0; [01;35m[Kw < o_extDict[d].size()[m[K; ++w)
+      |                                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:130:45:[m[K [01;35m[Kwarning: [m[K‘[01m[K*[m[K’ in boolean context, suggest ‘[01m[K&&[m[K’ instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-in-bool-context-Wint-in-bool-context]8;;[m[K]
+  130 |                                         [01;35m[Kadd *= (found != std::string::npos)[m[K;
+      |                                         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:139:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  139 |         for(int i = 0; [01;35m[Ki < detections.size()[m[K; ++i)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:144:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  144 |         for(int i = 0; [01;35m[Ki < detectedPlaces.size()[m[K; ++i)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:146:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  146 |                 for(int j = i + 1; [01;35m[Kj < detectedPlaces.size()[m[K; ++j)
+      |                                    [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/PlaceRecognition.cpp:105:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  105 |         const char [01;35m[Kdelim[m[K = ' ';
+      |                    [01;35m[K^~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/SemanticVisibility.cpp:[m[K In constructor ‘[01m[KSemanticVisibility::SemanticVisibility(std::shared_ptr<GMap>, int, const string&, const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<float>&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/SemanticVisibility.cpp:36:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   36 |         for(int i = 0; [01;35m[Ki < classNames.size()[m[K; ++i)
+      |                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/SemanticVisibility.cpp:53:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   53 |         for (long unsigned int row = 0; [01;35m[Krow < o_mapSize.height[m[K; ++row)
+      |                                         [01;35m[K~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/SemanticVisibility.cpp:55:53:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   55 |                 for (long unsigned int col = 0; [01;35m[Kcol < o_mapSize.width[m[K; ++col)
+      |                                                 [01;35m[K~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/SemanticLikelihood.cpp:[m[K In member function ‘[01m[Kvoid SemanticLikelihood::createEDT(float, const string&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/SemanticLikelihood.cpp:37:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<cv::Mat>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   37 |         for (int c = 0; [01;35m[Kc < o_distMaps.size()[m[K; ++c )
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/ReNMCL.cpp:[m[K In member function ‘[01m[Kvoid ReNMCL::Relocalize(const std::vector<Eigen::Matrix<float, 2, 1> >&, const std::vector<Eigen::Matrix<float, 2, 1> >&, const std::vector<float>&, float)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/ReNMCL.cpp:195:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnumKeep[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  195 |                 int [01;35m[KnumKeep[m[K = o_numParticles - perInject * numMatches;
+      |                     [01;35m[K^~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/ParticleFilter.cpp:[m[K In member function ‘[01m[Kvoid ParticleFilter::AddGussian(std::vector<Particle>&, int, const std::vector<Eigen::Matrix<float, 3, 1> >&, const std::vector<Eigen::Matrix<double, 3, 3> >&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/ParticleFilter.cpp:289:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KparW[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  289 |         int [01;35m[KparW[m[K = 1.0 / float(n_particles + particles.size());
+      |             [01;35m[K^~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/ParticleFilter.cpp:[m[K In member function ‘[01m[Kvoid ParticleFilter::NormalizeWeights(std::vector<Particle>&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/ParticleFilter.cpp:345:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Particle>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  345 |         for(int i =0; [01;35m[Ki < particles.size()[m[K; ++i)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/ParticleFilter.cpp:350:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Particle>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  350 |         for(int i =0; [01;35m[Ki < particles.size()[m[K; ++i)
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:433: nengine/src/CMakeFiles/NEGNINE.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/ParticleFilter.cpp:[m[K In member function ‘[01m[KEigen::Vector3f ParticleFilter::CreateSingleUniform()[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmcl/src/ParticleFilter.cpp:244:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  244 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kcv::Mat FloorMap::augmentGMap(const cv::Mat&, const std::vector<int>&)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:138:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_lowThreshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  138 |     const int [01;35m[Kmax_lowThreshold[m[K = 100;
+      |               [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kvoid FloorMap::CreateSemMaps()[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:195:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  195 |     for(int c = 0; [01;35m[Kc < o_classes.size()[m[K; ++c)
+      |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:200:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Room>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  200 |     for (int r = 0; [01;35m[Kr <  o_rooms.size()[m[K; ++r)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:204:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Object>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  204 |         for (int o = 0; [01;35m[Ko <  objs.size()[m[K; ++o)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:213:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  213 |     for(int c = 0; [01;35m[Kc < o_classes.size()[m[K; ++c)
+      |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:191:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  191 |     int [01;35m[Kh[m[K = o_roomSeg.rows;
+      |         [01;35m[K^[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:192:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  192 |     int [01;35m[Kw[m[K = o_roomSeg.cols;
+      |         [01;35m[K^[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kvoid FloorMap::findNeighbours()[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:304:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcolor[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  304 |         cv::Scalar [01;35m[Kcolor[m[K = cv::Scalar( rng.uniform(0, 256), rng.uniform(0,256), rng.uniform(0,256) );
+      |                    [01;35m[K^~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > FloorMap::GetRoomNames()[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:386:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Room>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  386 |     for(int i = 0; [01;35m[Ki < o_rooms.size()[m[K; ++i)
+      |                    [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+gmake: *** [Makefile:91: all] Error 2

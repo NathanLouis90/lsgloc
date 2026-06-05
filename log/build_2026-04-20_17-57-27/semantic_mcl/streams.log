@@ -1,0 +1,31 @@
+[0.247s] Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl': AMENT_PREFIX_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs:/opt/ros/humble LD_LIBRARY_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_mcl -- -j16 -l16
+[0.283s] [ 15%] Built target gtest_main
+[0.283s] [ 61%] Built target gtest
+[0.283s] [ 69%] Built target semantic_mcl_core
+[0.298s] [ 84%] Built target test_semantic_mcl
+[0.301s] [ 92%] Building CXX object CMakeFiles/semantic_mcl_node_exec.dir/src/semantic_mcl_node.cpp.o
+[9.668s] [100%] Linking CXX executable semantic_mcl_node_exec
+[10.131s] [100%] Built target semantic_mcl_node_exec
+[10.138s] Invoked command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl' returned '0': AMENT_PREFIX_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs:/opt/ros/humble LD_LIBRARY_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_mcl -- -j16 -l16
+[10.145s] Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl': AMENT_PREFIX_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs:/opt/ros/humble LD_LIBRARY_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/ssd/lsgloc_ws/build/semantic_mcl
+[10.149s] -- Install configuration: ""
+[10.149s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/lib/semantic_mcl/semantic_mcl_node_exec
+[10.159s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_mcl/lib/semantic_mcl/semantic_mcl_node_exec" to ""
+[10.159s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/config
+[10.159s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/config/semantic_mcl_params.yaml
+[10.159s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/ament_index/resource_index/package_run_dependencies/semantic_mcl
+[10.159s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/ament_index/resource_index/parent_prefix_path/semantic_mcl
+[10.159s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/ament_prefix_path.sh
+[10.159s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/ament_prefix_path.dsv
+[10.159s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/path.sh
+[10.159s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/path.dsv
+[10.159s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.bash
+[10.159s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.sh
+[10.160s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.zsh
+[10.160s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.dsv
+[10.160s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/package.dsv
+[10.160s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/ament_index/resource_index/packages/semantic_mcl
+[10.160s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/cmake/semantic_mclConfig.cmake
+[10.160s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/cmake/semantic_mclConfig-version.cmake
+[10.160s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/package.xml
+[10.161s] Invoked command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl' returned '0': AMENT_PREFIX_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs:/opt/ros/humble LD_LIBRARY_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /mnt/ssd/lsgloc_ws/build/semantic_mcl

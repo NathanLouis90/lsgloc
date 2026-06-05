@@ -1,0 +1,1 @@
+[0.282s] Invoking command in '/mnt/ssd/lsgloc_ws/build/yolov5_ros': /usr/bin/cmake /mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/yolov5_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/ssd/lsgloc_ws/install/yolov5_ros

@@ -1,0 +1,29 @@
+[0.015s] Invoking command in '/mnt/ssd/lsgloc_ws/build/ncore': /usr/bin/cmake /mnt/ssd/lsgloc_ws/hsmcl/ncore -DCMAKE_INSTALL_PREFIX=/mnt/ssd/lsgloc_ws/install/ncore
+[0.271s] -- The C compiler identification is GNU 11.4.0
+[0.272s] -- The CXX compiler identification is GNU 11.4.0
+[0.272s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.274s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.276s] -- Detecting C compile features
+[0.276s] -- Detecting C compile features - done
+[0.278s] -- Detecting CXX compiler ABI info
+[0.330s] -- Detecting CXX compiler ABI info - done
+[0.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.334s] -- Detecting CXX compile features
+[0.334s] -- Detecting CXX compile features - done
+[0.547s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[0.610s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[0.610s] -- Found OpenMP: TRUE (found version "4.5")  
+[0.642s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4.5") 
+[0.642s] -- Found OpenCV version 4.5.4
+[0.642s] -- OpenCV directories: /usr/include/opencv4
+[0.692s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization system filesystem 
+[0.692s] -- Found Boost version 1.74.0
+[0.692s] -- Boost directories: /usr/include
+[0.695s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found suitable version "3.10.5", minimum required is "3.2.0") 
+[0.695s] -- Found nlohmann_json
+[1.828s] -- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development Development.Module Development.Embed 
+[1.828s] -- Found Python version 3.10.12
+[1.828s] -- Configuring done
+[1.846s] -- Generating done
+[1.850s] -- Build files have been written to: /mnt/ssd/lsgloc_ws/build/ncore

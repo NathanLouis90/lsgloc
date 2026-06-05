@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_mcl -- -j16 -l16
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target semantic_mcl_core[0m
+[0.049s] [ 16%] Built target gtest_main
+[0.049s] [ 33%] Built target gtest
+[0.050s] [ 66%] Built target semantic_mcl_core
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target semantic_mcl_node_exec[0m
+[0.066s] [ 83%] Built target test_semantic_mcl
+[0.074s] [ 91%] [32mBuilding CXX object CMakeFiles/semantic_mcl_node_exec.dir/src/semantic_mcl_node.cpp.o[0m
+[1.468s] [01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_mcl_node.cpp:[m[K In constructor ‘[01m[Ksemantic_mcl::SemanticMCL::SemanticMCL()[m[K’:
+[1.468s] [01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_mcl_node.cpp:81:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass semantic_mcl::SemanticMCL[m[K’ has no member named ‘[01m[Kess_threshold_[m[K’
+[1.468s]    81 |         this->[01;31m[Kess_threshold_[m[K = this->get_parameter("ess_threshold").as_double();
+[1.468s]       |               [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.473s] [01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_mcl_node.cpp:[m[K In member function ‘[01m[Kvoid semantic_mcl::SemanticMCL::map_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.473s] [01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_mcl_node.cpp:160:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass semantic_mcl::SemanticMCL[m[K’ has no member named ‘[01m[Kess_threshold[m[K’
+[1.473s]   160 |         pf_.emplace(this->particle_count_, ogm, bm_.value(), mm_.value(), this->[01;31m[Kess_threshold[m[K);
+[1.473s]       |                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[4.033s] gmake[2]: *** [CMakeFiles/semantic_mcl_node_exec.dir/build.make:76: CMakeFiles/semantic_mcl_node_exec.dir/src/semantic_mcl_node.cpp.o] Error 1
+[4.033s] gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/semantic_mcl_node_exec.dir/all] Error 2
+[4.033s] gmake: *** [Makefile:146: all] Error 2
+[4.035s] Invoked command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_mcl -- -j16 -l16

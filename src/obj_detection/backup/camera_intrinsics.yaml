@@ -1,0 +1,6 @@
+vlm_depth_detector:
+    ros__parameters:
+        fx: 528.433756558705
+        fy: 528.433756558705
+        cx: 320.5
+        cy: 240.5

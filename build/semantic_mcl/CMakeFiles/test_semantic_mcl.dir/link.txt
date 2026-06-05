@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_semantic_mcl.dir/test/test_semantic_mcl.cpp.o -o test_semantic_mcl  gtest/libgtest_main.a gtest/libgtest.a libsemantic_mcl_core.a -pthread 

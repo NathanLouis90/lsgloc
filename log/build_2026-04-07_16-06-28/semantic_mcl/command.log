@@ -1,0 +1,2 @@
+Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_mcl -- -j16 -l16
+Invoked command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_mcl -- -j16 -l16

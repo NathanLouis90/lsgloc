@@ -1,0 +1,9 @@
+setup.py
+semantic_msgs/__init__.py
+semantic_msgs.egg-info/PKG-INFO
+semantic_msgs.egg-info/SOURCES.txt
+semantic_msgs.egg-info/dependency_links.txt
+semantic_msgs.egg-info/top_level.txt
+semantic_msgs/msg/__init__.py
+semantic_msgs/msg/_semantic_detection.py
+semantic_msgs/msg/_semantic_detection_array.py

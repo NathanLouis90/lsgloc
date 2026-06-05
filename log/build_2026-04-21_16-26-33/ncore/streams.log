@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/mnt/ssd/lsgloc_ws/build/ncore': /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/ncore -- -j16 -l16
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target TextRecoFromFolder2[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target NSENSORS[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target TextRecoFromFolder[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target NDL[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target NMAP[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target NEGNINE[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target NMCL[0m
+[0.249s] [  4%] Built target NDL
+[0.249s] [ 12%] Built target TextRecoFromFolder
+[0.249s] [ 24%] Built target NSENSORS
+[0.249s] [ 26%] [32mBuilding CXX object nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o[0m
+[0.249s] [ 34%] Built target TextRecoFromFolder2
+[0.249s] [ 48%] Built target NMAP
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target RoomSegmentation[0m
+[0.249s] [ 78%] Built target NMCL
+[0.249s] [ 95%] Built target RoomSegmentation
+[0.249s] In file included from [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/DataFrameLoader.cpp:12[m[K:
+[0.249s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/include/DataFrameLoader.h:17:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+[0.249s]    17 | #include [01;31m[K"Python.h"[m[K
+[0.250s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.250s] compilation terminated.
+[0.250s] gmake[2]: *** [nengine/src/CMakeFiles/NEGNINE.dir/build.make:90: nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o] Error 1
+[0.250s] gmake[1]: *** [CMakeFiles/Makefile2:433: nengine/src/CMakeFiles/NEGNINE.dir/all] Error 2
+[0.250s] gmake[1]: *** Waiting for unfinished jobs....
+[0.250s] gmake: *** [Makefile:91: all] Error 2
+[0.260s] Invoked command in '/mnt/ssd/lsgloc_ws/build/ncore' returned '2': /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/ncore -- -j16 -l16

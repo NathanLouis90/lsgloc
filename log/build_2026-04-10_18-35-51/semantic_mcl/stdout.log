@@ -1,0 +1,25 @@
+[ 15%] Built target gtest_main
+[ 53%] Built target semantic_mcl_core
+[ 69%] Built target gtest
+[ 84%] Built target test_semantic_mcl
+[ 92%] [32mBuilding CXX object CMakeFiles/semantic_mcl_node_exec.dir/src/semantic_mcl_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable semantic_mcl_node_exec[0m
+[100%] Built target semantic_mcl_node_exec
+-- Install configuration: ""
+-- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/lib/semantic_mcl/semantic_mcl_node_exec
+-- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_mcl/lib/semantic_mcl/semantic_mcl_node_exec" to ""
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/ament_index/resource_index/package_run_dependencies/semantic_mcl
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/ament_index/resource_index/parent_prefix_path/semantic_mcl
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/path.sh
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/path.dsv
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.bash
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.sh
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.zsh
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.dsv
+-- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/package.dsv
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/ament_index/resource_index/packages/semantic_mcl
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/cmake/semantic_mclConfig.cmake
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/cmake/semantic_mclConfig-version.cmake
+-- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/package.xml

@@ -1,0 +1,8 @@
+{                                                                                                                                                                                                                                                                                      
+    "landmarks": [                                                                                                                                                                                                                                                                         
+        {"label": "fire_hydrant", "x": -3.7, "y": -3.0},
+        {"label": "trash_can",    "x": 1.3, "y": -3.0},                                                                                                                                                                                                                                     
+        {"label": "door",         "x": 6.4, "y": -4.0},                                                                                                                                                                                                                                     
+        {"label": "door",         "x": -5.0, "y": 8.0}                                                                                                                                                                                                                                      
+    ]                                                                                                                                                                                                                                                                                      
+}   

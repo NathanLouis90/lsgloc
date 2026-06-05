@@ -1,0 +1,23 @@
+[0.614s] Invoking command in '/mnt/ssd/lsgloc_ws/src/obj_detection': CMAKE_PREFIX_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs:/mnt/ssd/lsgloc_ws/install/semantic_mcl:/mnt/ssd/lsgloc_ws/install/bcr_bot LD_LIBRARY_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/mnt/ssd/lsgloc_ws/build/obj_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ssd/lsgloc_ws/install/obj_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obj_detection build --build-base /mnt/ssd/lsgloc_ws/build/obj_detection/build install --record /mnt/ssd/lsgloc_ws/build/obj_detection/install.log --single-version-externally-managed install_data
+[0.843s] running egg_info
+[0.852s] writing ../../build/obj_detection/obj_detection.egg-info/PKG-INFO
+[0.852s] writing dependency_links to ../../build/obj_detection/obj_detection.egg-info/dependency_links.txt
+[0.852s] writing entry points to ../../build/obj_detection/obj_detection.egg-info/entry_points.txt
+[0.852s] writing requirements to ../../build/obj_detection/obj_detection.egg-info/requires.txt
+[0.852s] writing top-level names to ../../build/obj_detection/obj_detection.egg-info/top_level.txt
+[0.870s] reading manifest file '../../build/obj_detection/obj_detection.egg-info/SOURCES.txt'
+[0.870s] writing manifest file '../../build/obj_detection/obj_detection.egg-info/SOURCES.txt'
+[0.870s] running build
+[0.870s] running build_py
+[0.870s] running install
+[0.873s] running install_lib
+[0.882s] running install_data
+[0.882s] running install_egg_info
+[0.891s] removing '/mnt/ssd/lsgloc_ws/install/obj_detection/lib/python3.10/site-packages/obj_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.891s] Copying ../../build/obj_detection/obj_detection.egg-info to /mnt/ssd/lsgloc_ws/install/obj_detection/lib/python3.10/site-packages/obj_detection-0.0.0-py3.10.egg-info
+[0.892s] running install_scripts
+[0.926s] Installing vlm_service_node script to /mnt/ssd/lsgloc_ws/install/obj_detection/lib/obj_detection
+[0.926s] Installing vlm_streaming_node script to /mnt/ssd/lsgloc_ws/install/obj_detection/lib/obj_detection
+[0.926s] Installing yolo_node script to /mnt/ssd/lsgloc_ws/install/obj_detection/lib/obj_detection
+[0.926s] writing list of installed files to '/mnt/ssd/lsgloc_ws/build/obj_detection/install.log'
+[0.944s] Invoked command in '/mnt/ssd/lsgloc_ws/src/obj_detection' returned '0': CMAKE_PREFIX_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs:/mnt/ssd/lsgloc_ws/install/semantic_mcl:/mnt/ssd/lsgloc_ws/install/bcr_bot LD_LIBRARY_PATH=/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib:/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64 PYTHONPATH=/mnt/ssd/lsgloc_ws/build/obj_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ssd/lsgloc_ws/install/obj_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obj_detection build --build-base /mnt/ssd/lsgloc_ws/build/obj_detection/build install --record /mnt/ssd/lsgloc_ws/build/obj_detection/install.log --single-version-externally-managed install_data

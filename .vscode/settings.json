@@ -1,0 +1,15 @@
+{
+    "ROS2.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/mnt/ssd/lsgloc_ws/install/obj_detection/lib/python3.10/site-packages",
+        "/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/python3.8/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/mnt/ssd/lsgloc_ws/install/obj_detection/lib/python3.10/site-packages",
+        "/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/python3.8/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

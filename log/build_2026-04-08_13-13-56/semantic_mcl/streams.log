@@ -1,0 +1,36 @@
+[0.007s] Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_mcl -- -j16 -l16
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target semantic_mcl_core[0m
+[0.044s] [ 15%] Built target gtest_main
+[0.044s] [ 30%] Built target gtest
+[0.047s] [ 38%] [32mBuilding CXX object CMakeFiles/semantic_mcl_core.dir/src/semantic_model.cpp.o[0m
+[1.225s] [ 46%] [32m[1mLinking CXX static library libsemantic_mcl_core.a[0m
+[1.259s] [ 69%] Built target semantic_mcl_core
+[1.266s] [35m[1mConsolidate compiler generated dependencies of target test_semantic_mcl[0m
+[1.267s] [35m[1mConsolidate compiler generated dependencies of target semantic_mcl_node_exec[0m
+[1.275s] [ 76%] [32mBuilding CXX object CMakeFiles/test_semantic_mcl.dir/test/test_semantic_mcl.cpp.o[0m
+[1.279s] [ 84%] [32mBuilding CXX object CMakeFiles/semantic_mcl_node_exec.dir/src/semantic_mcl_node.cpp.o[0m
+[1.806s] [ 92%] [32m[1mLinking CXX executable test_semantic_mcl[0m
+[1.885s] [ 92%] Built target test_semantic_mcl
+[8.963s] [100%] [32m[1mLinking CXX executable semantic_mcl_node_exec[0m
+[9.330s] [100%] Built target semantic_mcl_node_exec
+[9.338s] Invoked command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_mcl -- -j16 -l16
+[9.345s] Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/ssd/lsgloc_ws/build/semantic_mcl
+[9.351s] -- Install configuration: ""
+[9.351s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/lib/semantic_mcl/semantic_mcl_node_exec
+[9.359s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_mcl/lib/semantic_mcl/semantic_mcl_node_exec" to ""
+[9.359s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/ament_index/resource_index/package_run_dependencies/semantic_mcl
+[9.359s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/ament_index/resource_index/parent_prefix_path/semantic_mcl
+[9.359s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/ament_prefix_path.sh
+[9.359s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/ament_prefix_path.dsv
+[9.359s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/path.sh
+[9.359s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/environment/path.dsv
+[9.359s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.bash
+[9.359s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.sh
+[9.359s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.zsh
+[9.359s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/local_setup.dsv
+[9.359s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/package.dsv
+[9.360s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/ament_index/resource_index/packages/semantic_mcl
+[9.360s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/cmake/semantic_mclConfig.cmake
+[9.360s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/cmake/semantic_mclConfig-version.cmake
+[9.360s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_mcl/share/semantic_mcl/package.xml
+[9.361s] Invoked command in '/mnt/ssd/lsgloc_ws/build/semantic_mcl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/ssd/lsgloc_ws/build/semantic_mcl

@@ -1,0 +1,11 @@
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_mcl_node.cpp:[m[K In constructor ‘[01m[Ksemantic_mcl::SemanticMCL::SemanticMCL()[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_mcl_node.cpp:81:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass semantic_mcl::SemanticMCL[m[K’ has no member named ‘[01m[Kess_threshold_[m[K’
+   81 |         this->[01;31m[Kess_threshold_[m[K = this->get_parameter("ess_threshold").as_double();
+      |               [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_mcl_node.cpp:[m[K In member function ‘[01m[Kvoid semantic_mcl::SemanticMCL::map_callback(nav_msgs::msg::OccupancyGrid_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_mcl_node.cpp:160:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass semantic_mcl::SemanticMCL[m[K’ has no member named ‘[01m[Kess_threshold[m[K’
+  160 |         pf_.emplace(this->particle_count_, ogm, bm_.value(), mm_.value(), this->[01;31m[Kess_threshold[m[K);
+      |                                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/semantic_mcl_node_exec.dir/build.make:76: CMakeFiles/semantic_mcl_node_exec.dir/src/semantic_mcl_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/semantic_mcl_node_exec.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

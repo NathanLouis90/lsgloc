@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsemantic_mcl_core.a CMakeFiles/semantic_mcl_core.dir/src/beam_model.cpp.o CMakeFiles/semantic_mcl_core.dir/src/motion_model.cpp.o CMakeFiles/semantic_mcl_core.dir/src/particle_filter.cpp.o CMakeFiles/semantic_mcl_core.dir/src/semantic_model.cpp.o
+/usr/bin/ranlib libsemantic_mcl_core.a

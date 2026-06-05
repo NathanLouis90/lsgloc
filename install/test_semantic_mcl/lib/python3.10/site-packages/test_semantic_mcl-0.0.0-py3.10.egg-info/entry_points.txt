@@ -1,0 +1,2 @@
+[console_scripts]
+landmark_visualizer = test_semantic_mcl.landmark_visualizer:main

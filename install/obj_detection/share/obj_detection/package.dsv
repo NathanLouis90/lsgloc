@@ -1,0 +1,6 @@
+source;share/obj_detection/hook/pythonpath.ps1
+source;share/obj_detection/hook/pythonpath.dsv
+source;share/obj_detection/hook/pythonpath.sh
+source;share/obj_detection/hook/ament_prefix_path.ps1
+source;share/obj_detection/hook/ament_prefix_path.dsv
+source;share/obj_detection/hook/ament_prefix_path.sh

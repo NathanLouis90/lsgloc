@@ -1,0 +1,4 @@
+[console_scripts]
+vlm_service_node = obj_detection.vlm_service_detector:main
+vlm_streaming_node = obj_detection.vlm_streaming_detector:main
+yolo_node = obj_detection.yolo_detector:main

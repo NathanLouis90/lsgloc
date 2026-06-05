@@ -1,0 +1,259 @@
+[0.010s] Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake /mnt/ssd/lsgloc_ws/src/semantic_msgs -DCMAKE_INSTALL_PREFIX=/mnt/ssd/lsgloc_ws/install/semantic_msgs
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.128s] -- Detecting C compiler ABI info - done
+[0.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.132s] -- Detecting C compile features
+[0.132s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.186s] -- Detecting CXX compiler ABI info - done
+[0.190s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.190s] -- Detecting CXX compile features
+[0.190s] -- Detecting CXX compile features - done
+[0.193s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.589s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.645s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.670s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.673s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.679s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.687s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.713s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.883s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.098s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.193s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.195s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.211s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.212s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.212s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.212s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.224s] -- Found PythonExtra: .so  
+[1.252s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.265s] -- Added test 'lint_cmake' to check CMake code style
+[1.266s] -- Added test 'xmllint' to check XML markup files
+[1.267s] -- Configuring done
+[1.287s] -- Generating done
+[1.293s] -- Build files have been written to: /mnt/ssd/lsgloc_ws/build/semantic_msgs
+[1.297s] Invoked command in '/mnt/ssd/lsgloc_ws/build/semantic_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake /mnt/ssd/lsgloc_ws/src/semantic_msgs -DCMAKE_INSTALL_PREFIX=/mnt/ssd/lsgloc_ws/install/semantic_msgs
+[1.298s] Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_msgs -- -j16 -l16
+[1.326s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.333s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.338s] [  5%] Built target ament_cmake_python_copy_semantic_msgs
+[1.482s] [  5%] Built target semantic_msgs__cpp
+[1.483s] [  7%] [32mBuilding C object CMakeFiles/semantic_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_msgs/msg/detail/semantic_detection__functions.c.o[0m
+[1.483s] [ 10%] [32mBuilding C object CMakeFiles/semantic_msgs__rosidl_generator_c.dir/rosidl_generator_c/semantic_msgs/msg/detail/semantic_detection_array__functions.c.o[0m
+[1.488s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.489s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.489s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.512s] [ 20%] [32m[1mLinking C shared library libsemantic_msgs__rosidl_generator_c.so[0m
+[1.536s] [ 20%] Built target semantic_msgs__rosidl_generator_c
+[1.542s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.542s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.543s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.550s] running egg_info
+[1.555s] creating semantic_msgs.egg-info
+[1.563s] writing semantic_msgs.egg-info/PKG-INFO
+[1.563s] writing dependency_links to semantic_msgs.egg-info/dependency_links.txt
+[1.563s] writing top-level names to semantic_msgs.egg-info/top_level.txt
+[1.563s] writing manifest file 'semantic_msgs.egg-info/SOURCES.txt'
+[1.590s] reading manifest file 'semantic_msgs.egg-info/SOURCES.txt'
+[1.590s] writing manifest file 'semantic_msgs.egg-info/SOURCES.txt'
+[1.611s] [ 28%] Built target ament_cmake_python_build_semantic_msgs_egg
+[1.618s] [ 30%] [32mBuilding CXX object CMakeFiles/semantic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/semantic_msgs/msg/semantic_detection__type_support.cpp.o[0m
+[1.618s] [ 33%] [32mBuilding CXX object CMakeFiles/semantic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/semantic_msgs/msg/semantic_detection_array__type_support.cpp.o[0m
+[1.628s] [ 35%] [32mBuilding CXX object CMakeFiles/semantic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/semantic_msgs/msg/detail/semantic_detection__type_support.cpp.o[0m
+[1.628s] [ 38%] [32mBuilding CXX object CMakeFiles/semantic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/semantic_msgs/msg/detail/semantic_detection_array__type_support.cpp.o[0m
+[1.637s] [ 41%] [32mBuilding CXX object CMakeFiles/semantic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/semantic_msgs/msg/detail/dds_fastrtps/semantic_detection__type_support.cpp.o[0m
+[1.637s] [ 43%] [32mBuilding CXX object CMakeFiles/semantic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/semantic_msgs/msg/detail/dds_fastrtps/semantic_detection_array__type_support.cpp.o[0m
+[1.673s] [ 46%] [32mBuilding CXX object CMakeFiles/semantic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/semantic_msgs/msg/semantic_detection__type_support.cpp.o[0m
+[1.675s] [ 48%] [32mBuilding CXX object CMakeFiles/semantic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/semantic_msgs/msg/semantic_detection_array__type_support.cpp.o[0m
+[1.685s] [ 51%] [32mBuilding C object CMakeFiles/semantic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_msgs/msg/detail/semantic_detection_array__type_support.c.o[0m
+[1.686s] [ 53%] [32mBuilding C object CMakeFiles/semantic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_msgs/msg/detail/semantic_detection__type_support.c.o[0m
+[1.698s] [ 56%] [32mBuilding CXX object CMakeFiles/semantic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/semantic_msgs/msg/detail/semantic_detection_array__type_support_c.cpp.o[0m
+[1.698s] [ 58%] [32mBuilding CXX object CMakeFiles/semantic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/semantic_msgs/msg/detail/semantic_detection__type_support_c.cpp.o[0m
+[1.702s] [ 61%] [32m[1mLinking CXX shared library libsemantic_msgs__rosidl_typesupport_c.so[0m
+[1.714s] [ 64%] [32m[1mLinking C shared library libsemantic_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.740s] [ 64%] Built target semantic_msgs__rosidl_typesupport_c
+[1.741s] [ 64%] Built target semantic_msgs__rosidl_typesupport_introspection_c
+[1.782s] [ 66%] [32m[1mLinking CXX shared library libsemantic_msgs__rosidl_typesupport_cpp.so[0m
+[1.809s] [ 66%] Built target semantic_msgs__rosidl_typesupport_cpp
+[1.869s] [ 69%] [32m[1mLinking CXX shared library libsemantic_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.875s] [ 71%] [32m[1mLinking CXX shared library libsemantic_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.875s] [ 74%] [32m[1mLinking CXX shared library libsemantic_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.914s] [ 74%] Built target semantic_msgs__rosidl_typesupport_introspection_cpp
+[1.922s] [ 74%] Built target semantic_msgs__rosidl_typesupport_fastrtps_c
+[1.922s] [ 74%] Built target semantic_msgs__rosidl_typesupport_fastrtps_cpp
+[1.936s] [ 74%] Built target semantic_msgs
+[1.950s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.135s] [ 76%] Built target semantic_msgs__py
+[2.148s] [ 79%] [32mBuilding C object CMakeFiles/semantic_msgs__rosidl_generator_py.dir/rosidl_generator_py/semantic_msgs/msg/_semantic_detection_s.c.o[0m
+[2.150s] [ 82%] [32mBuilding C object CMakeFiles/semantic_msgs__rosidl_generator_py.dir/rosidl_generator_py/semantic_msgs/msg/_semantic_detection_array_s.c.o[0m
+[2.206s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/semantic_msgs/libsemantic_msgs__rosidl_generator_py.so[0m
+[2.232s] [ 84%] Built target semantic_msgs__rosidl_generator_py
+[2.245s] [ 87%] [32mBuilding C object CMakeFiles/semantic_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/semantic_msgs/_semantic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.246s] [ 89%] [32mBuilding C object CMakeFiles/semantic_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/semantic_msgs/_semantic_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.246s] [ 92%] [32mBuilding C object CMakeFiles/semantic_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/semantic_msgs/_semantic_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.303s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/semantic_msgs/semantic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.303s] [100%] [32m[1mLinking C shared library rosidl_generator_py/semantic_msgs/semantic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.303s] [100%] [32m[1mLinking C shared library rosidl_generator_py/semantic_msgs/semantic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.327s] [100%] Built target semantic_msgs__rosidl_typesupport_c__pyext
+[2.327s] [100%] Built target semantic_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.328s] [100%] Built target semantic_msgs__rosidl_typesupport_introspection_c__pyext
+[2.336s] Invoked command in '/mnt/ssd/lsgloc_ws/build/semantic_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_msgs -- -j16 -l16
+[2.337s] Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --install /mnt/ssd/lsgloc_ws/build/semantic_msgs
+[2.342s] -- Install configuration: ""
+[2.342s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/ament_index/resource_index/rosidl_interfaces/semantic_msgs
+[2.342s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs
+[2.342s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg
+[2.342s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/semantic_detection_array.h
+[2.342s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/semantic_detection.h
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__functions.h
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__type_support.h
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__functions.c
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__functions.c
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__type_support.h
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__struct.h
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__struct.h
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__functions.h
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/environment/library_path.sh
+[2.343s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/environment/library_path.dsv
+[2.344s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_generator_c.so
+[2.344s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_generator_c.so" to ""
+[2.344s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs
+[2.344s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg
+[2.344s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.344s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail
+[2.344s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__rosidl_typesupport_fastrtps_c.h
+[2.344s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__rosidl_typesupport_fastrtps_c.h
+[2.344s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_fastrtps_c.so
+[2.344s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.344s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs
+[2.344s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg
+[2.344s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/semantic_detection.hpp
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/semantic_detection_array.hpp
+[2.345s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__type_support.hpp
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__struct.hpp
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__traits.hpp
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__builder.hpp
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__traits.hpp
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__type_support.hpp
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__struct.hpp
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__builder.hpp
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.345s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs
+[2.345s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.345s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail
+[2.345s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.346s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[2.346s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/dds_fastrtps
+[2.346s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.346s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.346s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs
+[2.346s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg
+[2.346s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.346s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail
+[2.346s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__type_support.c
+[2.346s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__rosidl_typesupport_introspection_c.h
+[2.346s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__rosidl_typesupport_introspection_c.h
+[2.346s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__type_support.c
+[2.347s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_introspection_c.so
+[2.347s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.347s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_c.so
+[2.347s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_c.so" to ""
+[2.347s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs
+[2.347s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg
+[2.347s] -- Up-to-date: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail
+[2.347s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[2.347s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__type_support.cpp
+[2.347s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection_array__type_support.cpp
+[2.347s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/include/semantic_msgs/semantic_msgs/msg/detail/semantic_detection__rosidl_typesupport_introspection_cpp.hpp
+[2.347s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_introspection_cpp.so
+[2.348s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.348s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_cpp.so
+[2.348s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_typesupport_cpp.so" to ""
+[2.348s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/environment/pythonpath.sh
+[2.348s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/environment/pythonpath.dsv
+[2.348s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs-0.0.0-py3.10.egg-info
+[2.348s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.348s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.348s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.348s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/libsemantic_msgs__rosidl_generator_py.so
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/semantic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/_semantic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/__init__.py
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/msg
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/msg/__init__.py
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/msg/_semantic_detection.py
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/msg/_semantic_detection_s.c
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/msg/_semantic_detection_array_s.c
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/msg/_semantic_detection_array.py
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/_semantic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.349s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/_semantic_msgs_s.ep.rosidl_typesupport_c.c
+[2.350s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/semantic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.350s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/semantic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.370s] Listing '/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs'...
+[2.370s] Compiling '/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/__init__.py'...
+[2.370s] Listing '/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/msg'...
+[2.370s] Compiling '/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/msg/__init__.py'...
+[2.370s] Compiling '/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/msg/_semantic_detection.py'...
+[2.370s] Compiling '/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/msg/_semantic_detection_array.py'...
+[2.372s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/semantic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.373s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/semantic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.373s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/semantic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.373s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/semantic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.373s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/semantic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.373s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/local/lib/python3.10/dist-packages/semantic_msgs/semantic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.373s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_generator_py.so
+[2.374s] -- Set runtime path of "/mnt/ssd/lsgloc_ws/install/semantic_msgs/lib/libsemantic_msgs__rosidl_generator_py.so" to ""
+[2.374s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/msg/SemanticDetection.idl
+[2.374s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/msg/SemanticDetectionArray.idl
+[2.374s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/msg/SemanticDetection.msg
+[2.374s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/msg/SemanticDetectionArray.msg
+[2.374s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/ament_index/resource_index/package_run_dependencies/semantic_msgs
+[2.374s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/ament_index/resource_index/parent_prefix_path/semantic_msgs
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/environment/ament_prefix_path.sh
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/environment/ament_prefix_path.dsv
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/environment/path.sh
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/environment/path.dsv
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/local_setup.bash
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/local_setup.sh
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/local_setup.zsh
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/local_setup.dsv
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/package.dsv
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/ament_index/resource_index/packages/semantic_msgs
+[2.375s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/export_semantic_msgs__rosidl_generator_cExport.cmake
+[2.376s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/export_semantic_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.376s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/export_semantic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.376s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/export_semantic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.376s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/export_semantic_msgs__rosidl_generator_cppExport.cmake
+[2.376s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/export_semantic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.376s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/export_semantic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.376s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/semantic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.376s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/semantic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.376s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/semantic_msgs__rosidl_typesupport_cExport.cmake
+[2.376s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/semantic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/semantic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/semantic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/semantic_msgs__rosidl_typesupport_cppExport.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/semantic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/export_semantic_msgs__rosidl_generator_pyExport.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/export_semantic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/rosidl_cmake-extras.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.377s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.378s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.378s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.378s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/semantic_msgsConfig.cmake
+[2.378s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/cmake/semantic_msgsConfig-version.cmake
+[2.378s] -- Installing: /mnt/ssd/lsgloc_ws/install/semantic_msgs/share/semantic_msgs/package.xml
+[2.379s] Invoked command in '/mnt/ssd/lsgloc_ws/build/semantic_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --install /mnt/ssd/lsgloc_ws/build/semantic_msgs

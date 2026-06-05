@@ -1,0 +1,7 @@
+vlm_front_detector:                                                                                                                                                                                                                                                                      
+  ros__parameters:
+    color_topic: front_camera/image_raw
+    depth_topic: front_camera/depth/image_raw                                                                                                                                                                                                                                   
+    camera_info_topic: front_camera/camera_info
+    camera_optical_frame: front_camera_optical                                                                                                                                                                                                                                           
+    detection_topic: vlm/semantic_detections

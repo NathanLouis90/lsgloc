@@ -1,0 +1,32 @@
+[0.267s] Invoking command in '/mnt/ssd/lsgloc_ws/build/yolov5_ros': /usr/bin/cmake /mnt/ssd/lsgloc_ws/hsmcl/ros1_ws/src/yolov5_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/ssd/lsgloc_ws/install/yolov5_ros
+[0.302s] -- The C compiler identification is GNU 11.4.0
+[0.339s] -- The CXX compiler identification is GNU 11.4.0
+[0.344s] -- Detecting C compiler ABI info
+[0.389s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.393s] -- Detecting C compile features
+[0.394s] -- Detecting C compile features - done
+[0.396s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.454s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.454s] -- Detecting CXX compile features
+[0.454s] -- Detecting CXX compile features - done
+[0.464s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.464s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.464s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.464s]   CMake did not find one.
+[0.464s] 
+[0.464s]   Could not find a package configuration file provided by "catkin" with any
+[0.464s]   of the following names:
+[0.464s] 
+[0.464s]     catkinConfig.cmake
+[0.464s]     catkin-config.cmake
+[0.464s] 
+[0.464s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.465s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.465s]   provides a separate development package or SDK, be sure it has been
+[0.465s]   installed.
+[0.465s] 
+[0.465s] [0m
+[0.465s] -- Configuring incomplete, errors occurred!
+[0.465s] See also "/mnt/ssd/lsgloc_ws/build/yolov5_ros/CMakeFiles/CMakeOutput.log".

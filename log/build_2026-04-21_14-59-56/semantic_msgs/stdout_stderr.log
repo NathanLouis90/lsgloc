@@ -1,0 +1,22 @@
+[ 10%] Built target semantic_msgs__rosidl_generator_c
+[ 12%] Built target semantic_msgs__cpp
+[ 12%] Built target ament_cmake_python_copy_semantic_msgs
+[ 23%] Built target semantic_msgs__rosidl_typesupport_c
+[ 33%] Built target semantic_msgs__rosidl_typesupport_fastrtps_c
+[ 43%] Built target semantic_msgs__rosidl_typesupport_introspection_c
+[ 53%] Built target semantic_msgs__rosidl_typesupport_introspection_cpp
+[ 64%] Built target semantic_msgs__rosidl_typesupport_cpp
+[ 74%] Built target semantic_msgs__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target semantic_msgs
+[ 76%] Built target semantic_msgs__py
+[ 84%] Built target semantic_msgs__rosidl_generator_py
+[ 89%] Built target semantic_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target semantic_msgs__rosidl_typesupport_c__pyext
+[100%] Built target semantic_msgs__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing semantic_msgs.egg-info/PKG-INFO
+writing dependency_links to semantic_msgs.egg-info/dependency_links.txt
+writing top-level names to semantic_msgs.egg-info/top_level.txt
+reading manifest file 'semantic_msgs.egg-info/SOURCES.txt'
+writing manifest file 'semantic_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_semantic_msgs_egg

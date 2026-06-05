@@ -1,0 +1,63 @@
+[0.018s] Invoking command in '/mnt/ssd/lsgloc_ws/build/ncore': /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/ncore -- -j16 -l16
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target TextRecoFromFolder[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target TextRecoFromFolder2[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target NSENSORS[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target NMAP[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target NDL[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target NMCL[0m
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target NEGNINE[0m
+[0.294s] [  7%] Built target TextRecoFromFolder
+[0.295s] [ 19%] Built target NSENSORS
+[0.295s] [ 26%] Built target TextRecoFromFolder2
+[0.295s] [ 31%] Built target NDL
+[0.295s] [ 34%] [32mBuilding CXX object nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o[0m
+[0.295s] [ 48%] Built target NMAP
+[0.295s] [ 51%] [32mBuilding CXX object nmap/src/CMakeFiles/RoomSegmentation.dir/RoomSegmentation.cpp.o[0m
+[0.295s] [ 53%] [32mBuilding CXX object nmap/src/CMakeFiles/RoomSegmentation.dir/GMap.cpp.o[0m
+[0.295s] [ 56%] [32mBuilding CXX object nmap/src/CMakeFiles/RoomSegmentation.dir/FloorMap.cpp.o[0m
+[0.295s] [ 58%] [32mBuilding CXX object nmap/src/CMakeFiles/RoomSegmentation.dir/Room.cpp.o[0m
+[0.295s] [ 60%] [32mBuilding CXX object nmap/src/CMakeFiles/RoomSegmentation.dir/Lift.cpp.o[0m
+[0.295s] [ 63%] [32mBuilding CXX object nmap/src/CMakeFiles/RoomSegmentation.dir/Object.cpp.o[0m
+[0.295s] [ 92%] Built target NMCL
+[0.295s] In file included from [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/DataFrameLoader.cpp:12[m[K:
+[0.295s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/include/DataFrameLoader.h:17:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+[0.296s]    17 | #include [01;31m[K"Python.h"[m[K
+[0.296s]       |          [01;31m[K^~~~~~~~~~[m[K
+[0.296s] compilation terminated.
+[0.296s] gmake[2]: *** [nengine/src/CMakeFiles/NEGNINE.dir/build.make:90: nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o] Error 1
+[0.296s] gmake[1]: *** [CMakeFiles/Makefile2:433: nengine/src/CMakeFiles/NEGNINE.dir/all] Error 2
+[0.296s] gmake[1]: *** Waiting for unfinished jobs....
+[1.522s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kcv::Mat FloorMap::augmentGMap(const cv::Mat&, const std::vector<int>&)[m[K’:
+[1.522s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:138:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmax_lowThreshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.522s]   138 |     const int [01;35m[Kmax_lowThreshold[m[K = 100;
+[1.522s]       |               [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[1.523s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kvoid FloorMap::CreateSemMaps()[m[K’:
+[1.523s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:195:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.523s]   195 |     for(int c = 0; [01;35m[Kc < o_classes.size()[m[K; ++c)
+[1.523s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[1.523s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:200:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Room>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.523s]   200 |     for (int r = 0; [01;35m[Kr <  o_rooms.size()[m[K; ++r)
+[1.523s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[1.523s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:204:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Object>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.523s]   204 |         for (int o = 0; [01;35m[Ko <  objs.size()[m[K; ++o)
+[1.523s]       |                         [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[1.523s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:213:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.523s]   213 |     for(int c = 0; [01;35m[Kc < o_classes.size()[m[K; ++c)
+[1.523s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[1.523s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:191:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.523s]   191 |     int [01;35m[Kh[m[K = o_roomSeg.rows;
+[1.523s]       |         [01;35m[K^[m[K
+[1.523s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:192:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.524s]   192 |     int [01;35m[Kw[m[K = o_roomSeg.cols;
+[1.524s]       |         [01;35m[K^[m[K
+[1.531s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kvoid FloorMap::findNeighbours()[m[K’:
+[1.531s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:304:20:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcolor[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.531s]   304 |         cv::Scalar [01;35m[Kcolor[m[K = cv::Scalar( rng.uniform(0, 256), rng.uniform(0,256), rng.uniform(0,256) );
+[1.531s]       |                    [01;35m[K^~~~~[m[K
+[1.534s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:[m[K In member function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > FloorMap::GetRoomNames()[m[K’:
+[1.534s] [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nmap/src/FloorMap.cpp:386:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Room>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.534s]   386 |     for(int i = 0; [01;35m[Ki < o_rooms.size()[m[K; ++i)
+[1.534s]       |                    [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[4.408s] [ 95%] [32m[1mLinking CXX executable /mnt/ssd/lsgloc_ws/hsmcl/ncore/build/bin/RoomSegmentation[0m
+[4.600s] [ 95%] Built target RoomSegmentation
+[4.601s] gmake: *** [Makefile:91: all] Error 2

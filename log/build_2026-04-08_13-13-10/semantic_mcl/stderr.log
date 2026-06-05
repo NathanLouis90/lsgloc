@@ -1,0 +1,19 @@
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_model.cpp:[m[K In constructor ‘[01m[Ksemantic_mcl::SemanticModel::SemanticModel(semantic_mcl::OccupancyMap, const string&, double, double)[m[K’:
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_model.cpp:10:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcerr[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   10 |             std::[01;31m[Kcerr[m[K << "Could not open file: " << landmark_json_path << "\n";
+      |                  [01;31m[K^~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_model.cpp:2:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cerr[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+    1 | #include "semantic_mcl/semantic_model.hpp"
+  +++ |+[32m[K#include <iostream>[m[K
+    2 | 
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_model.cpp:17:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcerr[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   17 |             std::[01;31m[Kcerr[m[K << "JSON parse error: " << e.what() << "\n";
+      |                  [01;31m[K^~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_model.cpp:17:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cerr[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_model.cpp:22:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcerr[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   22 |                 std::[01;31m[Kcerr[m[K << "Skipping malformed landmark entry\n";
+      |                      [01;31m[K^~~~[m[K
+[01m[K/mnt/ssd/lsgloc_ws/src/semantic_mcl/src/semantic_model.cpp:22:22:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cerr[m[K’ is defined in header ‘[01m[K<iostream>[m[K’; did you forget to ‘[01m[K#include <iostream>[m[K’?
+gmake[2]: *** [CMakeFiles/semantic_mcl_core.dir/build.make:118: CMakeFiles/semantic_mcl_core.dir/src/semantic_model.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/semantic_mcl_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

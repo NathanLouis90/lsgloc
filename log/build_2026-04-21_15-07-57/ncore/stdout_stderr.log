@@ -1,0 +1,18 @@
+[  4%] Built target NDL
+[ 12%] Built target TextRecoFromFolder
+[ 29%] Built target TextRecoFromFolder2
+[ 31%] Built target NSENSORS
+[ 34%] [32mBuilding CXX object nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o[0m
+[ 48%] Built target NMAP
+[ 78%] Built target NMCL
+[35m[1mConsolidate compiler generated dependencies of target RoomSegmentation[0m
+[ 95%] Built target RoomSegmentation
+In file included from [01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/src/DataFrameLoader.cpp:12[m[K:
+[01m[K/mnt/ssd/lsgloc_ws/hsmcl/ncore/nengine/include/DataFrameLoader.h:17:10:[m[K [01;31m[Kfatal error: [m[KPython.h: No such file or directory
+   17 | #include [01;31m[K"Python.h"[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [nengine/src/CMakeFiles/NEGNINE.dir/build.make:90: nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:433: nengine/src/CMakeFiles/NEGNINE.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:91: all] Error 2

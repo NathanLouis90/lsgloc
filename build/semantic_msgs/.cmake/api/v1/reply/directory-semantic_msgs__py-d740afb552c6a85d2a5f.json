@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "semantic_msgs__py",
+		"source" : "/mnt/ssd/lsgloc_ws/build/semantic_msgs/semantic_msgs__py"
+	}
+}

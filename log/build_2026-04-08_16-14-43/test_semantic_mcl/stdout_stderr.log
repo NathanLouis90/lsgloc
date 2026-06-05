@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/test_semantic_mcl/test_semantic_mcl.egg-info
+writing ../../build/test_semantic_mcl/test_semantic_mcl.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_semantic_mcl/test_semantic_mcl.egg-info/dependency_links.txt
+writing requirements to ../../build/test_semantic_mcl/test_semantic_mcl.egg-info/requires.txt
+writing top-level names to ../../build/test_semantic_mcl/test_semantic_mcl.egg-info/top_level.txt
+writing manifest file '../../build/test_semantic_mcl/test_semantic_mcl.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_semantic_mcl/test_semantic_mcl.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_semantic_mcl/test_semantic_mcl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/ssd/lsgloc_ws/build/test_semantic_mcl/build
+creating /mnt/ssd/lsgloc_ws/build/test_semantic_mcl/build/lib
+creating /mnt/ssd/lsgloc_ws/build/test_semantic_mcl/build/lib/test_semantic_mcl
+copying test_semantic_mcl/__init__.py -> /mnt/ssd/lsgloc_ws/build/test_semantic_mcl/build/lib/test_semantic_mcl
+running install
+running install_lib
+creating /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/lib/python3.10/site-packages/test_semantic_mcl
+copying /mnt/ssd/lsgloc_ws/build/test_semantic_mcl/build/lib/test_semantic_mcl/__init__.py -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/lib/python3.10/site-packages/test_semantic_mcl
+byte-compiling /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/lib/python3.10/site-packages/test_semantic_mcl/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/ament_index
+creating /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/ament_index/resource_index
+creating /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/ament_index/resource_index/packages
+copying resource/test_semantic_mcl -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl
+creating /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/worlds
+copying worlds/level6_v2 -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/worlds
+copying worlds/level6_v1 -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/worlds
+copying worlds/level6_v3 -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/worlds
+creating /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/launch
+copying launch/test_semantic_mcl.launch.py -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/launch
+creating /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/map
+copying map/map.pgm -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/map
+copying map/map.yaml -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/map
+creating /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/config
+copying config/landmarks.json -> /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/share/test_semantic_mcl/config
+running install_egg_info
+Copying ../../build/test_semantic_mcl/test_semantic_mcl.egg-info to /mnt/ssd/lsgloc_ws/install/test_semantic_mcl/lib/python3.10/site-packages/test_semantic_mcl-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/mnt/ssd/lsgloc_ws/build/test_semantic_mcl/install.log'

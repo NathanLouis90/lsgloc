@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/semantic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_msgs/msg/detail/semantic_detection__type_support.c.o"
+  "CMakeFiles/semantic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_msgs/msg/detail/semantic_detection__type_support.c.o.d"
+  "CMakeFiles/semantic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_msgs/msg/detail/semantic_detection_array__type_support.c.o"
+  "CMakeFiles/semantic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/semantic_msgs/msg/detail/semantic_detection_array__type_support.c.o.d"
+  "libsemantic_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libsemantic_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/semantic_msgs/msg/detail/semantic_detection__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/semantic_msgs/msg/detail/semantic_detection__type_support.c"
+  "rosidl_typesupport_introspection_c/semantic_msgs/msg/detail/semantic_detection_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/semantic_msgs/msg/detail/semantic_detection_array__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/semantic_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

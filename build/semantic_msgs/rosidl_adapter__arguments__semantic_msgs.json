@@ -1,0 +1,7 @@
+{
+  "package_name": "semantic_msgs",
+  "non_idl_tuples": [
+    "/mnt/ssd/lsgloc_ws/src/semantic_msgs:msg/SemanticDetection.msg",
+    "/mnt/ssd/lsgloc_ws/src/semantic_msgs:msg/SemanticDetectionArray.msg"
+  ]
+}

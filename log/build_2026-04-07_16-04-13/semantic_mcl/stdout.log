@@ -1,0 +1,8 @@
+[  8%] [32mBuilding CXX object CMakeFiles/semantic_mcl_core.dir/src/particle_filter.cpp.o[0m
+[ 25%] Built target gtest_main
+[ 41%] Built target gtest
+[ 50%] [32m[1mLinking CXX static library libsemantic_mcl_core.a[0m
+[ 66%] Built target semantic_mcl_core
+[ 75%] [32m[1mLinking CXX executable test_semantic_mcl[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/semantic_mcl_node_exec.dir/src/semantic_mcl_node.cpp.o[0m
+[ 91%] Built target test_semantic_mcl

@@ -1,0 +1,23 @@
+[0.020s] Invoking command in '/mnt/ssd/lsgloc_ws/build/semantic_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ssd/lsgloc_ws/install/test_semantic_mcl:/mnt/ssd/lsgloc_ws/install/obj_detection:/opt/ros/humble /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/semantic_msgs -- -j16 -l16
+[0.279s] [ 10%] Built target semantic_msgs__rosidl_generator_c
+[0.279s] [ 12%] Built target semantic_msgs__cpp
+[0.279s] [ 12%] Built target ament_cmake_python_copy_semantic_msgs
+[0.279s] [ 23%] Built target semantic_msgs__rosidl_typesupport_c
+[0.279s] [ 33%] Built target semantic_msgs__rosidl_typesupport_fastrtps_c
+[0.279s] [ 43%] Built target semantic_msgs__rosidl_typesupport_introspection_c
+[0.279s] [ 53%] Built target semantic_msgs__rosidl_typesupport_introspection_cpp
+[0.279s] [ 64%] Built target semantic_msgs__rosidl_typesupport_cpp
+[0.280s] [ 74%] Built target semantic_msgs__rosidl_typesupport_fastrtps_cpp
+[0.280s] [ 74%] Built target semantic_msgs
+[0.280s] [ 76%] Built target semantic_msgs__py
+[0.280s] [ 84%] Built target semantic_msgs__rosidl_generator_py
+[0.280s] [ 89%] Built target semantic_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.280s] [ 94%] Built target semantic_msgs__rosidl_typesupport_c__pyext
+[0.280s] [100%] Built target semantic_msgs__rosidl_typesupport_introspection_c__pyext
+[0.305s] running egg_info
+[0.314s] writing semantic_msgs.egg-info/PKG-INFO
+[0.314s] writing dependency_links to semantic_msgs.egg-info/dependency_links.txt
+[0.314s] writing top-level names to semantic_msgs.egg-info/top_level.txt
+[0.340s] reading manifest file 'semantic_msgs.egg-info/SOURCES.txt'
+[0.341s] writing manifest file 'semantic_msgs.egg-info/SOURCES.txt'
+[0.364s] [100%] Built target ament_cmake_python_build_semantic_msgs_egg

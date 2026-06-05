@@ -1,0 +1,2 @@
+Invoking command in '/mnt/ssd/lsgloc_ws/build/ncore': /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/ncore -- -j16 -l16
+Invoked command in '/mnt/ssd/lsgloc_ws/build/ncore' returned '2': /usr/bin/cmake --build /mnt/ssd/lsgloc_ws/build/ncore -- -j16 -l16

@@ -1,0 +1,9 @@
+[  4%] Built target NDL
+[ 12%] Built target TextRecoFromFolder
+[ 29%] Built target TextRecoFromFolder2
+[ 31%] Built target NSENSORS
+[ 34%] [32mBuilding CXX object nengine/src/CMakeFiles/NEGNINE.dir/DataFrameLoader.cpp.o[0m
+[ 48%] Built target NMAP
+[ 78%] Built target NMCL
+[35m[1mConsolidate compiler generated dependencies of target RoomSegmentation[0m
+[ 95%] Built target RoomSegmentation
