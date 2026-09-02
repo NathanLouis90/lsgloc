@@ -1,4 +1,4 @@
-<img width="5244" height="3851" alt="deepseek_mermaid_20260902_f36d88" src="https://github.com/user-attachments/assets/cae552e4-d1c3-42aa-aa8e-526657e2721f" /># Lidar-Semantic Global Localization
+# Lidar Semantic Global Localization
 
 Global localization for a differential-drive mobile robot (`bcr_bot`) from a **prior floor plan only — no SLAM pre-mapping**. The robot solves the "kidnapped robot" problem: starting from a uniform belief over the whole map, it recovers its pose using **semantic landmarks** (objects detected in the camera image) fused with a **LiDAR beam model**, inside a particle filter (Monte Carlo Localization).
 
