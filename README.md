@@ -266,24 +266,7 @@ Add displays for: `Map` (`/map`), `PoseArray` (`/particle_cloud` — the particl
 | `/particle_cloud` | `geometry_msgs/PoseArray` | filter → RViz (the belief) |
 | `/landmark_markers` | `visualization_msgs/MarkerArray` | visualizer → RViz |
 
----
-
-## 8. Notes for pushing to GitHub
-
-- **Fix `.gitignore` before the first push.** It currently reads `zimmerman_hsmcl.pdf*.pt` on a single line, which does **not** ignore `*.pt`. Split into separate lines so the 136 MB `yolov8x.pt` and the PDF are excluded:
-  ```gitignore
-  build/
-  install/
-  log/
-  *.pt
-  zimmerman_hsmcl.pdf
-  ```
-- **Do not commit model weights** (`*.pt`) — they auto-download or are placed manually (§2).
-- **Replace absolute paths** (§3) with package-share-relative resolution, or document clearly that users must edit them.
-
----
-
-## 9. Tests & linting
+## 8. Tests & linting
 
 ```bash
 colcon test                                  # all packages
