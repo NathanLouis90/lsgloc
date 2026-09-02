@@ -1,4 +1,4 @@
-# Lidar-Semantic Global Localization
+<img width="5244" height="3851" alt="deepseek_mermaid_20260902_f36d88" src="https://github.com/user-attachments/assets/cae552e4-d1c3-42aa-aa8e-526657e2721f" /># Lidar-Semantic Global Localization
 
 Global localization for a differential-drive mobile robot (`bcr_bot`) from a **prior floor plan only — no SLAM pre-mapping**. The robot solves the "kidnapped robot" problem: starting from a uniform belief over the whole map, it recovers its pose using **semantic landmarks** (objects detected in the camera image) fused with a **LiDAR beam model**, inside a particle filter (Monte Carlo Localization).
 
@@ -204,45 +204,9 @@ Add displays for: `Map` (`/map`), `PoseArray` (`/particle_cloud` — the particl
 ---
 
 ## 7. System architecture
+<img width="5244" height="3851" alt="system_architecture" src="https://github.com/user-attachments/assets/86f4c8a9-5acd-4e6b-b691-2c05dfabdb9b" />
 
-```
-                ┌──────────────────────── Gazebo Classic 11 (bcr_bot) ────────────────────────┐
-                │  camera (color+depth+info)      LiDAR /scan        wheel odometry /odom      │
-                └───────┬───────────────────────────┬───────────────────────┬─────────────────┘
-                        │                            │                       │
-              ┌─────────▼──────────┐                 │                       │
-              │  obj_detection     │                 │                       │
-              │  (Python)          │                 │                       │
-              │  ┌──────────────┐  │                 │                       │
-              │  │ vlm_streaming│  │  2D box ─► bearing/range via intrinsics  │
-              │  │   _node      │  │  ─► TF to base_link                      │
-              │  │  (Gemini /   │  │                 │                       │
-              │  │   Ollama)    │  │                 │                       │
-              │  │  ── OR ──    │  │                 │                       │
-              │  │ yolo_node    │  │                 │                       │
-              │  └──────┬───────┘  │                 │                       │
-              └─────────┼──────────┘                 │                       │
-                        │ SemanticDetectionArray      │                       │
-                        │ (vlm|yolo/semantic_detections)                      │
-                        ▼                            ▼                       ▼
-              ┌───────────────────────────────────────────────────────────────────────┐
-              │  semantic_mcl  (C++ particle filter — node: semantic_mcl_node)          │
-              │   • motion_model   predict step from odom (diff/omni + alphas)          │
-              │   • beam_model     4-mixture LiDAR likelihood                           │
-              │   • semantic_model visibility likelihood vs floor-plan landmarks        │
-              │   • particle_filter init / update / resample (ESS-gated) / estimate     │
-              │   subscribes: /scan /odom /map  +  semantic detections                  │
-              │   publishes:  /mcl_pose (PoseWithCovarianceStamped)                      │
-              │               /particle_cloud (PoseArray)                               │
-              └───────────────────────────────────────────────────────────────────────┘
-                        ▲                                   ▲
-              /map (OccupancyGrid, transient_local)         │ /landmark_markers (MarkerArray)
-                        │                                   │
-          ┌─────────────┴───────────┐         ┌─────────────┴───────────────┐
-          │ nav2_map_server          │         │ landmark_visualizer (Python) │
-          │ + nav2_lifecycle_manager │         │ (test_semantic_mcl)          │
-          └──────────────────────────┘         └──────────────────────────────┘
-```
+
 
 ### Packages
 
