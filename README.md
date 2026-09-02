@@ -3,12 +3,9 @@
 Global localization for a differential-drive mobile robot (`bcr_bot`) from a **prior floor plan only — no SLAM pre-mapping**. The robot solves the "kidnapped robot" problem: starting from a uniform belief over the whole map, it recovers its pose using **semantic landmarks** (objects detected in the camera image) fused with a **LiDAR beam model**, inside a particle filter (Monte Carlo Localization).
 
 This is a research re-implementation of:
-- **Zimmerman et al.** — Semantic MCL: LiDAR beam model + a semantic *visibility* model that weights particles by how likely the detected objects are to be seen from each candidate pose given the floor plan. *(primary algorithmic reference)*
-- **VLGLOC** — global localization from a floor plan using a VLM instead of a hand-crafted detector.
+- **Zimmerman et al.** — Semantic MCL: LiDAR beam model + a semantic *visibility* model that weights particles by how likely the detected objects are to be seen from each candidate pose given the floor plan. *(primary algorithmic reference)* [http://ipb.uni-bonn.de/wp-content/papercite-data/pdf/zimmerman2023ral.pdf]
 
 Detection uses either a **VLM (Gemini or a local Ollama model)** or **YOLOv8**, selectable at runtime.
-
-> Status: simulation-first. Development runs `bcr_bot` in Gazebo Classic 11. Deployment target is a real corridor environment.
 
 ---
 
