@@ -204,9 +204,7 @@ Add displays for: `Map` (`/map`), `PoseArray` (`/particle_cloud` — the particl
 ---
 
 ## 7. System architecture
-<img width="5244" height="3851" alt="system_architecture" src="https://github.com/user-attachments/assets/86f4c8a9-5acd-4e6b-b691-2c05dfabdb9b" />
-
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/47051c40-8b1e-4fa2-bfd3-f58dc783acc5" />
 
 ### Packages
 
