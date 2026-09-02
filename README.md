@@ -1,4 +1,4 @@
-# Vision-Based Global Localization (Semantic MCL)
+# Lidar-Semantic Global Localization
 
 Global localization for a differential-drive mobile robot (`bcr_bot`) from a **prior floor plan only — no SLAM pre-mapping**. The robot solves the "kidnapped robot" problem: starting from a uniform belief over the whole map, it recovers its pose using **semantic landmarks** (objects detected in the camera image) fused with a **LiDAR beam model**, inside a particle filter (Monte Carlo Localization).
 
