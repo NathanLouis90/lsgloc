@@ -1,6 +1,6 @@
 # Lidar Semantic Global Localization
 
-Global localization for a differential-drive mobile robot (`bcr_bot`) from a **prior floor plan only — no SLAM pre-mapping**. The robot solves the "kidnapped robot" problem: starting from a uniform belief over the whole map, it recovers its pose using **semantic landmarks** (objects detected in the camera image) fused with a **LiDAR beam model**, inside a particle filter (Monte Carlo Localization).
+Global localization for a differential-drive mobile robot ([`bcr_bot`](https://github.com/blackcoffeerobotics/bcr_bot)) from a **prior floor plan only — no SLAM pre-mapping**. The robot solves the "kidnapped robot" problem: starting from a uniform belief over the whole map, it recovers its pose using **semantic landmarks** (objects detected in the camera image) fused with a **LiDAR beam model**, inside a particle filter (Monte Carlo Localization).
 
 This is a research re-implementation of:
 - [**Zimmerman et al.**](http://ipb.uni-bonn.de/wp-content/papercite-data/pdf/zimmerman2023ral.pdf) — Semantic MCL: LiDAR beam model + a semantic *visibility* model that weights particles by how likely the detected objects are to be seen from each candidate pose given the floor plan. Check out the original implementation in ROS1 here: https://github.com/PRBonn/hsmcl
@@ -13,9 +13,9 @@ Detection uses either a **VLM (Gemini or a local Ollama model)** or **YOLOv8**, 
 
 | Component | Version / Notes |
 |-----------|-----------------|
-| OS | Ubuntu 22.04 |
+| OS | [Ubuntu 22.04](https://releases.ubuntu.com/jammy/) |
 | ROS 2 | [Humble](https://docs.ros.org/en/humble/Installation.html) |
-| Simulator | Gazebo Classic 11 (`gazebo_ros`) |
+| Simulator | [Gazebo Classic 11](https://classic.gazebosim.org/download) (`gazebo_ros`) |
 | Build | `colcon`, `ament_cmake` (C++), `ament_python` (Python) |
 | C++ deps | `rclcpp`, `nav_msgs`, `sensor_msgs`, `geometry_msgs`, `std_msgs`, `nlohmann_json` |
 | Python deps | `rclpy`, `cv_bridge`, `message_filters`, `tf2_ros`, `tf2_geometry_msgs`, `opencv-python`, `numpy`, `Pillow` |
@@ -207,7 +207,7 @@ Add displays for: `Map` (`/map`), `PoseArray` (`/particle_cloud` — the particl
 
 | Package | Lang | Role |
 |---------|------|------|
-| [`bcr_bot`](https://github.com/blackcoffeerobotics/bcr_bot) | — | Robot URDF/Xacro + Gazebo launch files (5 simulator variants). |
+| `bcr_bot` | — | Robot URDF/Xacro + Gazebo launch files (5 simulator variants). |
 | `semantic_msgs` | IDL | `SemanticDetection{label, bearing, range, confidence}` and `SemanticDetectionArray`. The detector↔filter interface. |
 | `obj_detection` | Python | Detection nodes: `vlm_streaming_node`, `vlm_service_node`, `yolo_node`. Converts 2D detections to bearing/range and transforms to `base_link`. |
 | `semantic_mcl` | C++ | The particle filter and its motion/beam/semantic models. Executable `semantic_mcl_node_exec`. |
