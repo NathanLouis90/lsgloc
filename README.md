@@ -14,7 +14,7 @@ Detection uses either a **VLM (Gemini or a local Ollama model)** or **YOLOv8**, 
 | Component | Version / Notes |
 |-----------|-----------------|
 | OS | Ubuntu 22.04 |
-| ROS 2 | Humble |
+| ROS 2 | [Humble](https://docs.ros.org/en/humble/Installation.html) |
 | Simulator | Gazebo Classic 11 (`gazebo_ros`) |
 | Build | `colcon`, `ament_cmake` (C++), `ament_python` (Python) |
 | C++ deps | `rclcpp`, `nav_msgs`, `sensor_msgs`, `geometry_msgs`, `std_msgs`, `nlohmann_json` |
@@ -51,7 +51,7 @@ The streaming VLM detector (`vlm_streaming_node`) has two backends, chosen with 
   ```bash
   export GOOGLE_API_KEY="your_key_here"
   ```
-  ⚠️ Requires internet. The deployment target is an offline edge device (its own WiFi hotspot), so Gemini will be unreachable there — this is a known open problem (see CLAUDE.md).
+  ⚠️ Requires internet. The deployment target is an offline edge device (its own WiFi hotspot), so Gemini will be unreachable there.
 
 - **`ollama`** (local): runs a VLM on a local Ollama server (default `http://localhost:11434`). Pull a vision model first, e.g.:
   ```bash
