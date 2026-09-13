@@ -3,7 +3,7 @@
 Global localization for a differential-drive mobile robot (`bcr_bot`) from a **prior floor plan only — no SLAM pre-mapping**. The robot solves the "kidnapped robot" problem: starting from a uniform belief over the whole map, it recovers its pose using **semantic landmarks** (objects detected in the camera image) fused with a **LiDAR beam model**, inside a particle filter (Monte Carlo Localization).
 
 This is a research re-implementation of:
-- **Zimmerman et al.** — Semantic MCL: LiDAR beam model + a semantic *visibility* model that weights particles by how likely the detected objects are to be seen from each candidate pose given the floor plan. *(primary algorithmic reference)* [http://ipb.uni-bonn.de/wp-content/papercite-data/pdf/zimmerman2023ral.pdf]
+- [**Zimmerman et al.**](http://ipb.uni-bonn.de/wp-content/papercite-data/pdf/zimmerman2023ral.pdf) — Semantic MCL: LiDAR beam model + a semantic *visibility* model that weights particles by how likely the detected objects are to be seen from each candidate pose given the floor plan. Check out the original implementation in ROS1 here: https://github.com/PRBonn/hsmcl
 
 Detection uses either a **VLM (Gemini or a local Ollama model)** or **YOLOv8**, selectable at runtime.
 
@@ -201,13 +201,13 @@ Add displays for: `Map` (`/map`), `PoseArray` (`/particle_cloud` — the particl
 ---
 
 ## 7. System architecture
-<img width="3637" height="2047" alt="image" src="https://github.com/user-attachments/assets/bb1f7c8a-9cf7-4f03-8d5f-d885e3036463" />
+<img width="844" height="627" alt="image" src="https://github.com/user-attachments/assets/d4fe6956-2536-45d7-acc1-7456814790d4" />
 
 ### Packages
 
 | Package | Lang | Role |
 |---------|------|------|
-| `bcr_bot` | — | Robot URDF/Xacro + Gazebo launch files (5 simulator variants). |
+| [`bcr_bot`](https://github.com/blackcoffeerobotics/bcr_bot) | — | Robot URDF/Xacro + Gazebo launch files (5 simulator variants). |
 | `semantic_msgs` | IDL | `SemanticDetection{label, bearing, range, confidence}` and `SemanticDetectionArray`. The detector↔filter interface. |
 | `obj_detection` | Python | Detection nodes: `vlm_streaming_node`, `vlm_service_node`, `yolo_node`. Converts 2D detections to bearing/range and transforms to `base_link`. |
 | `semantic_mcl` | C++ | The particle filter and its motion/beam/semantic models. Executable `semantic_mcl_node_exec`. |
